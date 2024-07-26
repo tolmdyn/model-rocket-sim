@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rocket Simulation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1>Rocket Simulation Results</h1>
+
+  <h2>Max Altitude</h2>
+  <p id="maxAltitude">Calculating...</p>
+
+  <h2>Results</h2>
+  <div class="chart-container" style="position: relative; height:40vh; width:80vw">
+  <canvas id="resultsChart"></canvas>
+  </div>
+
+  <h2>Simulation Data</h2>
+  <table id="resultsTable">
+    <thead>
+      <tr>
+        <th>Time (s)</th>
+        <th>Drag (N)</th>
+        <th>Net Force (N)</th>
+        <th>Mass (kg)</th>
+        <th>Acceleration (m/s²)</th>
+        <th>Velocity (m/s)</th>
+        <th>Altitude (m)</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="rocketsim.js"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
