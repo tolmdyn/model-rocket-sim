@@ -8,6 +8,50 @@
 </head>
 
 <body>
+  <h1>Rocket Simulation</h1>
+
+    <form id="parametersForm">
+        <h2>Rocket Parameters</h2>
+        <label for="diameter">Diameter (m):</label>
+        <input type="text" id="diameter" name="diameter" value="0.035306"><br>
+
+        <label for="mass">Mass (kg):</label>
+        <input type="text" id="mass" name="mass" value="0.106"><br>
+
+        <label for="massCase">Mass Case (kg):</label>
+        <input type="text" id="massCase" name="massCase" value="0.01442"><br>
+
+        <label for="impulse">Impulse (Ns):</label>
+        <input type="text" id="impulse" name="impulse" value="9"><br>
+
+        <label for="thrust">Thrust (N):</label>
+        <input type="text" id="thrust" name="thrust" value="6"><br>
+
+        <label for="dragCoefficient">Drag Coefficient:</label>
+        <input type="text" id="dragCoefficient" name="dragCoefficient" value="0.75"><br>
+
+        <label for="ejectionDelay">Ejection Delay (s):</label>
+        <input type="text" id="ejectionDelay" name="ejectionDelay" value="7"><br>
+
+        <label for="chuteDiameter">Chute Diameter (m):</label>
+        <input type="text" id="chuteDiameter" name="chuteDiameter" value="0.3"><br>
+
+        <label for="propellantMass">Propellant Mass (kg):</label>
+        <input type="text" id="propellantMass" name="propellantMass" value="0.01248"><br>
+
+        <h2>Simulation Parameters</h2>
+        <label for="timestep">Timestep (s):</label>
+        <input type="text" id="timestep" name="timestep" value="0.1"><br>
+
+        <label for="gravity">Gravity (m/s²):</label>
+        <input type="text" id="gravity" name="gravity" value="9.8"><br>
+
+        <label for="maxTimesteps">Max Timesteps:</label>
+        <input type="text" id="maxTimesteps" name="maxTimesteps" value="1000"><br>
+
+        <button type="button" onclick="updateSimulation()">Run Simulation</button>
+    </form>
+
   <h1>Rocket Simulation Results</h1>
 
   <h2>Max Altitude</h2>
