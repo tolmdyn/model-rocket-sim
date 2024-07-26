@@ -103,7 +103,6 @@ class RocketSimulation {
       // Update previous values for next iteration
       prevAltitude = newAltitude;
       prevVelocity = velocity;
-
     }
   }
 
