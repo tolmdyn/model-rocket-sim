@@ -16,7 +16,7 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
   align-items: flex-start;
-  width: 80%;
+  width: 90%;
   max-width: 1200px;
   margin: 20px 0;
 }

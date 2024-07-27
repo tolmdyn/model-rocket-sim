@@ -78,6 +78,7 @@ function updateChart(results) {
       datasets: [altitudeDataset, velocityDataset, accelerationDataset]
     },
     options: {
+      responsive: false,
       scales: {
         x: {
           title: {
