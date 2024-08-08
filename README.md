@@ -11,7 +11,7 @@ Hosted on [GitHub Pages](https://tolmdyn.github.io/model-rocket-sim/)
 
 ## Implementation Details
 
-The simulation tracks air drag, net force, acceleration, velocity and altitude, along with a modelling the effects of a timed parachute chute ejection.
+The simulation tracks air drag, net force, acceleration, velocity and altitude, along with a modelling the effects of a timed parachute ejection.
 
 The rocket and simulation parameters can be adjusted, for different model rockets. The specifications of different Estes motors can be found online, for example [here](https://courses.washington.edu/engr100/All_Sections/Rocket/HTML%20Handouts/01b_hnd_engine_chart.pdf) or on the Estes website.
 
